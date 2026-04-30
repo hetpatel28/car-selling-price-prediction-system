@@ -22,7 +22,7 @@ Car price prediction is a regression problem where the target variable is contin
 * 🔍 Exploratory Data Analysis (EDA)
 * 🤖 Machine Learning model training
 * 📈 Model evaluation using metrics
-* 🌐 (Optional) Web app interface for prediction
+* 🌐 Web app interface for prediction using flask
 
 ---
 
@@ -32,22 +32,8 @@ Car price prediction is a regression problem where the target variable is contin
 * Pandas & NumPy
 * Scikit-learn
 * Matplotlib / Seaborn
-* Flask (if deployed as web app)
+* Flask 
 
----
-
-## 📂 Project Structure
-
-```
-Car-Selling-Price-Prediction-System/
-│
-├── data/                  # Dataset files
-├── notebooks/            # Jupyter notebooks (EDA & training)
-├── model/                # Saved ML model
-├── app.py                # Flask app (if included)
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
-```
 
 ---
 
@@ -104,7 +90,7 @@ git clone https://github.com/hetpatel28/car-selling-price-prediction-system.git
 cd car-selling-price-prediction-system
 ```
 
-### 2️⃣ Create virtual environment (optional)
+### 2️⃣ Create virtual environment 
 
 ```bash
 python -m venv venv
@@ -147,12 +133,6 @@ python app.py
 
 Contributions are welcome!
 Feel free to fork this repository and submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
